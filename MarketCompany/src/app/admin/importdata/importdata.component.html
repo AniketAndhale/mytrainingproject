@@ -1,0 +1,80 @@
+<!-- 
+     <div class="">
+ 
+    <body style="background-color:gray;"></body>
+    <div class="container">
+<div class="hero-bkg-animated">
+    <div class="card text-dark bg-light mb-3">
+            <p class="h4 card-header">Import Excel Data</p>
+            <div class="card-body bg-light">
+                <p class="card-text">Select File to be uploaded:&nbsp;</p>
+                <div class="input-group mb-3">
+                    <input type="file" name="excelFileUpload" id="excelFileUpload" formControlName="excelFileUpload"
+                    class="custom-file-input" (change)="onFileChange($event)">
+
+                    <div class="">
+                        <input type="file" class="custom-file-input" id="inputGroupFile">
+                        <label class="custom-file-label" for="inputGroupFile">Choose file</label>
+                    </div>
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="inputGroupFileAddon">Upload</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+
+</div>
+</div> -->
+
+<div id="body" class="container-fluid">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+    
+          <form [formGroup]='importdataForm' class="form-group border p-5 border-curved mt-5 bg-light" >
+            <p class="h1 text-muted text-uppercase text-center mb-3">Import</p>
+            <!-- <input placeholder="Select Excel File to be Uploaded" />
+            <input type="file" id="file">
+            <br>
+            <small id="fileHelp">Max 3mb size</small><br>    -->
+             <!-- <a href="#">Click Here to Download Sample Excel File</a> -->
+             <div class="form-row">
+                <div class="col-12 col-md-9 mb-2 mb-md-0">
+                  <input type="file" class="custom-file-input" placeholder=" Select Excel File to be Uploaded " formControlName="excelfile"
+                   (change)="onFileChange($event)">
+                   <label for="execlFile" class="custom-file-label"></label>
+                  
+                  <br>
+         </div>
+            </div>
+            <button class="btn btn-outline-primary text-dark text-center form-control" (click)="importData()" >Import</button>
+           </form>
+           <br>
+<div class=" text-center">
+    <button class="btn  btn-warning" >
+    <a  routerLink="/admin">Back</a></button>
+    </div>
+
+        </div> 
+      
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

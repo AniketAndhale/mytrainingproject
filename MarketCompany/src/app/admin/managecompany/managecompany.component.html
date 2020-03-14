@@ -1,0 +1,51 @@
+<div class="container">
+<div class="table-responsive">
+    <div class="text-center">
+        <h2>Company Details</h2>
+    </div>
+
+<table class="table" border="2">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>CompanyName</th>
+            <th>Sector</th>
+            <th>CEO</th>
+            <th>BOD</th>
+            <th>TurnOver</th>
+            
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let company of company">
+            <td>{{company.id}}</td>
+            <td>{{company.companyname}}</td>
+            <td>{{company.sector}}</td>
+            <td>{{company.ceo}}</td>
+            <td>{{company.bod}}</td>   
+            <td>{{company.turnover}}</td>
+            
+            <td>
+                <button class="btn btn-info" (click)="updateCompany(company.id)"><i class="fas fa-edit"></i></button>
+                <button class="btn btn-danger" (click)="deleteCompany(company)"><i class="fa fa-trash"></i></button>
+                <!-- <button class="btn btn-danger" (click)="updateCompany(company)">Update</button>
+                 -->
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+<!-- <div style="min-height: 50vh;"></div> -->
+<div class=" text-center">
+<button class="btn  btn-warning" >
+<a  routerLink="/admin/createcompany">Create Company</a></button>
+</div>
+
+<br>
+<div class=" text-center">
+    <button class="btn  btn-warning" >
+    <a  routerLink="/admin">Back</a></button>
+    </div>

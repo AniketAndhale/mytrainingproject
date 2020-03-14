@@ -1,0 +1,49 @@
+
+<div class="container">
+    <div class="table-responsive">
+        <div class="text-center">
+            <h2>StockExchange Details</h2>
+        </div>
+
+<table class="table" border="2">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>StockExchangeName</th>
+            <th>Brief</th>
+            <th>Address</th>
+            <th>Remark</th>
+            <th>Action</th>
+       
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let stock of stock">
+            <td>{{stock.id}}</td>
+            <td>{{stock.stockexchangename}}</td>
+            <td>{{stock.brief}}</td>
+            <td>{{stock.address}}</td>
+            <td>{{stock.remark}}</td>
+           
+            <td>
+                <button class="btn btn-info" (click)="updateStockExchange(stock.id)"><i class="fas fa-edit"></i></button>
+                <button class="btn btn-danger" (click)="deleteStockExchange(stock)"><i class="fa fa-trash"></i></button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+
+
+<div class=" text-center">
+    <button class="btn  btn-warning" >
+    <a  routerLink="/manageexchange">Manage Exchange</a></button>
+    </div>
+<br>
+<div class=" text-center">
+    <button class="btn  btn-warning" >
+    <a  routerLink="/admin">Back</a></button>
+    </div>
+

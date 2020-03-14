@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <title>AdminHomepage</title>
+
+</head>
+
+<body>
+    <div class="container  ">
+
+
+        <h2 class="text-center text-dark ">Admin Landing</h2>
+        <div class="row">
+            <div class="mx-auto mt-5">
+                <ul class="list-group text-center no-decoration">
+
+                 
+                    <li><a routerLink="updateio" class="list-group-item list-group-item-danger">
+                        <h4 class="list-group-item-heading">UpdateIPODetail</h4>
+                    </a></li>
+
+                    
+
+        <br>
+                    <li><a routerLink="managecompany" class="list-group-item list-group-item-warning">
+                        <h4 class="list-group-item-heading">ManageCompany</h4>
+                    </a></li>
+                    <br>
+
+                    <li><a routerLink="importdata" class="list-group-item list-group-item-danger">
+                        <h4 class="list-group-item-heading">Importdata</h4>
+                    </a></li>
+            
+        <br>
+                    <li><a routerLink="managestockexchange" class="list-group-item list-group-item-warning">
+                        <h4 class="list-group-item-heading">ManageExchange</h4>
+                    </a></li>
+
+        <br>
+                    <li><a routerLink="/sectorlist" class="list-group-item list-group-item-danger">
+                        <h4 class="list-group-item-heading">Sector</h4>
+                    </a></li>
+<br>
+
+                    <li><a routerLink="/stockpricelist" class="list-group-item list-group-item-warning">
+                        <h4 class="list-group-item-heading">StockPrice</h4>
+                    </a></li>
+     <br>
+
+                    <li><a routerLink="/displayuser" class="list-group-item list-group-item-danger">
+                        <h4 class="list-group-item-heading">UserList</h4>
+                    </a></li>
+
+
+  <br>
+
+                   <li><a routerLink="/logout" class="list-group-item list-group-item-dark">
+                        <h3 class="list-group-item-heading">Logout</h3>
+                    </a></li>
+                
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+</body>
+
+</html>

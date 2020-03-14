@@ -1,0 +1,21 @@
+{
+  "user": [
+    {
+      "id": 143,
+      "username": "admin",
+      "password1": "admin",
+      "password2": "true",
+      "email": "annu@gmail.com",
+      "phone": 12345445
+     
+    },
+    {
+      "id": 145,
+      "username": "Aniket",
+      "password1": "aniket@q1#2",
+      "password2": "false",
+      "email": "aniket3648@gmail.com",
+      "phone": 9763530194
+    }
+  ]
+}

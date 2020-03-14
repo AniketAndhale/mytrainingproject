@@ -1,0 +1,33 @@
+<!-- <div class="row">
+    <div class="w-auto border bg-light p-3 col-md-6 offset-md-3 shadow rounded h-50 my-5 ">
+        <div class=text-centre>
+
+            <h4 class="text-center display-4">Hi {{users.username}} </h4>
+            <!-- <div><i class="fa user-circle"></i>
+    
+    </div> -->
+            <!-- <h5 class="text-center ">{{users.username}}</h5>
+            <h5 class="text-center">{{users.email}}</h5>
+            <h5 class="text-center">{{users.phone}}</h5>
+        </div>
+    </div>
+    <br>
+    <div class=text-centre>
+    <div class="form-group">
+        <button class="btn btn-success" (click)="updateProfile">Update Profile</button> 
+    </div>    
+        </div>
+</div> --> 
+
+<div *ngIf="user" class="row justify-content-center ">
+    <div class="w-auto border bg-light p-3 col-md-4 shadow rounded h-50 my-5">
+        <h4 class="text-center display-4">Hi {{user.username}} </h4>
+        <!-- <div><i class="fa user-circle"></i>
+        </div> -->
+        <h5 class="text-center ">{{user.username}}</h5>
+        <h5 class="text-center">{{user.email}}</h5>
+        <h5 class="text-center">{{user.phone}}</h5>
+        <a class="btn btn-info btn-lg btn-block mt-3 mb-3 " (click)="updateUser()"><i class="fas fa-user-edit fa-lg"></i></a>
+        <a class="btn btn-info btn-lg btn-block mt-3 mb-3 "  (click)="updatePassword()">Change My Password</a>
+    </div>
+    </div>

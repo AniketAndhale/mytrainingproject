@@ -1,0 +1,30 @@
+h1 {
+    color: black;
+    padding: 6px;
+
+    size: 800px;
+    text-align: center;
+
+
+    font-style: italic;
+
+
+
+}
+
+.topnav {
+    background-color: blue;
+
+    text-align: center;
+
+
+}
+
+img {
+    float: left;
+}
+/* .carousel-inner img {
+    width: 100%;
+    height: 100%;
+} */
+

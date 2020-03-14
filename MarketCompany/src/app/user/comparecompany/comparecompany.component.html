@@ -1,0 +1,64 @@
+
+<div class="">
+    <br>
+    <br>
+    <h2 class="text-center">Compare Company</h2>
+    <div class="container">
+        <form class=" w-50 container" [formGroup]="comparecompanyForm"  (ngSubmit)="onSubmit()">
+
+
+            <!-- <div class="form-group">
+                <label for="selectcompany">Select Company/sector</label>
+               
+                <select class="browser-default custom-select" formControlName="selectcompany">
+                    <option selected>select company/sector</option>
+                    <option value="1">Company</option>
+                    <option value="2">sector</option>
+    
+                  </select>
+            </div>
+            <div class="form-group">
+                <label for="selectstock">Select Stock Exchange</label>
+                <select class="browser-default custom-select" formControlName="selectstock" >
+                    <option selected>select Stock Exchange  </option>
+                    <option value="1">BSE</option>
+                    <option value="2">NSE</option>
+                    
+                 </select>
+
+            </div> -->
+            <div class="form-group">
+                <label for="ceoname">Company Name</label>
+                <input type="text" class="form-control " name="companyname" formControlName="companyname"
+                placeholder="Enter Company Name">
+            </div>
+
+            <div class="form-group">
+                <label for="ceoname">Stock Name</label>
+                <input type="text" class="form-control " name="stockname" formControlName="stockname"
+                placeholder="Enter Stock Name">
+            </div>
+            
+            <!-- <div class="form-group row">
+                <label for="from period" class="col-2 col-form-label">From Period</label>
+                <div class="col-10">
+                  <input class="form-control" type="date" value="2011-08-19" id="fperiod" formControlName="fperiod"  name="fperiod">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="from period" class="col-2 col-form-label">To Period</label>
+                <div class="col-10">
+                  <input class="form-control" type="date" value="2011-08-19" id="tperiod" formControlName="tperiod"  name="fperiod">
+                </div>
+            </div> -->
+            
+              
+                <div class="form-group">
+                <button class="btn btn-success" (click)=" generateMap()" [disabled]=!comparecompanyForm.valid routerLink="/chart12">Generate Map</button>
+                         
+                </div>
+                
+            </form>
+    </div>
+    </div> 
+

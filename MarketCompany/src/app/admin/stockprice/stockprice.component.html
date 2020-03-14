@@ -1,0 +1,56 @@
+
+<div class="">
+    <h2 class="text-center">Stock Price</h2>
+    <div class="container">
+         <form class=" w-50 container" [formGroup]="stockpriceForm"  > 
+
+            <div class="form-group">
+                <label for="companyname">ID</label>
+                <input type="number" class="form-control " name="id" formControlName="id"
+                placeholder="Enter  Id ">
+            </div>
+            <div class="form-group">
+                <label for="companyCode">Company Code</label>
+                <input type="text" class="form-control " name="companyCode" formControlName="companyCode"
+                placeholder="Enter Company Code">
+            </div>
+
+
+            <div class="form-group">
+                <label for="stockExchange">stockExchange</label>
+                <input type="text" class="form-control " name="stockExchange" formControlName="stockExchange"
+                placeholder="Entre some Brief">
+            </div>
+           
+             <div class="form-group">
+                <label for="currentPrice">Current Price</label>
+                <input type="number" class="form-control " name="currentprice" formControlName="currentPrice"
+                placeholder="Entre some Brief">
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" class="form-control " name="date" formControlName="date"
+                placeholder="Entre Date">
+            </div>
+           
+            <div class="form-group">
+                <label for="time">Time</label>
+                <input type="time" class="form-control " name="time" formControlName="time"
+                placeholder="Entre Time">
+            </div>
+           
+                
+
+                <div class="form-group">
+                <button class="btn btn-success" (click)="addStockPrice()" [disabled]=!stockpriceForm.valid>Add StocPrice</button>
+                         do u want to reset?
+                         <button type="reset"  class="btn  btn-success px-5 mx-3" 
+                         >reset</button>       
+                </div>
+                
+            </form>
+    </div>
+    </div>
+
+

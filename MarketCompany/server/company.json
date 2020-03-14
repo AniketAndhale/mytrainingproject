@@ -1,0 +1,23 @@
+{
+    "company": [
+      {
+        "id": 143,
+        "companyname": "wipro",
+        "sector": "marketing",
+        "ceo": "brain",
+        "bod": "anndf",
+        "turnover": 12345
+    
+      },
+     
+      {
+        "id": 145,
+        "companyname": "newonee",
+        "sector": "annn",
+        "ceo": "dfj",
+        "bod": "dfcdg",
+        "turnover": 1265
+    
+      }
+    ]
+  }

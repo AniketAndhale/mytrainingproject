@@ -1,0 +1,48 @@
+<div class="table-responsive">
+    <div class="text-center">
+    <h2>User Details</h2>
+</div>
+<br>
+<table class="table" border="2">
+
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Action</th>
+             
+        </tr>
+    </thead>
+    
+    <tbody>
+        <tr *ngFor="let user of users">
+            <td>{{user.id}}</td>
+            <td>{{user.username}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.phone}}</td>
+            <td>
+                <button class="btn btn-info" (click)="updateUser(user.id)"><i class="fas fa-edit"></i></button>
+                <button class="btn btn-danger" (click)="deleteUser(user)"><i class="fa fa-trash"></i></button>
+            </td>
+        </tr>
+    </tbody>
+
+</table>
+</div>
+
+
+<!-- <div class=" text-center">
+    <button class="btn  btn-warning" >
+    <a  routerLink="/register">Register</a></button>
+    </div>
+ -->
+ <br>
+    <div class=" text-center">
+        <button class="btn  btn-warning" >
+        <a  routerLink="/admin">Back</a></button>
+        </div>
+    
+
+

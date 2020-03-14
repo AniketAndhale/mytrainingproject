@@ -1,0 +1,36 @@
+<div class="">
+    <h2 class="text-center">Sector</h2>
+    <div class="container">
+         <form class=" w-50 container" [formGroup]="sectorForm"  > 
+
+            <div class="form-group">
+                <label for="companyname">ID</label>
+                <input type="number" class="form-control " name="id" formControlName="id"
+                placeholder="Enter sector Id ">
+            </div>
+            <div class="form-group">
+                <label for="sectorname">Sector Name</label>
+                <input type="text" class="form-control " name="name" formControlName="name"
+                placeholder="Enter Sectorname">
+            </div>
+            <div class="form-group">
+                <label for="sector">Brief</label>
+                <input type="text" class="form-control " name="brief" formControlName="brief"
+                placeholder="Entre some Brief">
+            </div>
+           
+            
+                
+
+                <div class="form-group">
+                <button class="btn btn-success" (click)="addSector()" [disabled]=!sectorForm.valid>AddSector</button>
+                         do u want to reset?
+                         <button type="reset"  class="btn  btn-success px-5 mx-3" 
+                         >reset</button>       
+                </div>
+                
+            </form>
+    </div>
+    </div>
+
+

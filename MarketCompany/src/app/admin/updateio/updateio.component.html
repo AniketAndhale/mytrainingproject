@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="text-center">
+        <h2>IPO Details</h2>
+    </div>
+
+    <div class="table-responsive">
+<table class="table" border="2">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>CompanyName</th>
+            <th>StockExchange</th>
+            <th>PricePerShare</th>
+            <th>TotalStocks</th>
+            <th>Remark</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let ipo of ipo">
+            <td>{{ipo.id}}</td>
+            <td>{{ipo.companyName}}</td>
+            <td>{{ipo.stockExchange}}</td>
+            <td>{{ipo.pricePerShare}}</td>
+            <td>{{ipo.totalStocks}}</td>
+            <td>{{ipo.remarks}}</td>
+            <td>
+                <button class="btn btn-info" (click)="updateIPO(ipo.id)"><i class="fas fa-edit"></i></button>
+                <button class="btn btn-danger" (click)="deleteIPO(ipo)"><i class="fa fa-trash"></i></button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+
+<div class=" text-center">
+    <button class="btn  btn-warning" >
+    <a  routerLink="/user/ipo">Add IPO</a></button>
+    </div>
+
+    <br>
+    <div class=" text-center">
+        <button class="btn  btn-warning" >
+        <a  routerLink="/admin">Back</a></button>
+        </div>
+    

@@ -1,0 +1,43 @@
+
+
+<br>
+<br>
+<div class="container">
+<div class="table-responsive">
+  <div class="text-center">  <h3>StockPrice Details</h3></div>
+<table class="table" border="3">
+    <tr>
+        <th>ID</th>
+        <th>CompanyCode</th>
+        <th>StockExchange</th>
+        <th>CurrentPrice</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Action</th>
+    </tr>
+    <tr *ngFor=" let stockprice of stockprice">
+        <td>{{stockprice.id}}</td>
+        <td>{{stockprice.companyCode}}</td>
+        <td>{{stockprice.stockExchange}}</td>
+        <td>{{stockprice.currentPrice}}</td>
+        <td>{{stockprice.date}}</td>
+        <td>{{stockprice.time}}</td>
+        <td>
+            
+            <!-- <button class="btn btn-primary" (click)="updateStockPrice(stockprice)"> <i class="fas fa-edit"></i> </button> -->
+
+        <button class="btn btn-danger" (click)="deleteStockPrice(stockprice)"><i class="fa fa-trash"> </i></button></td>
+
+    </tr>
+</table>
+</div>
+ </div> 
+
+<div class="row justify-content-center">
+    <button class="btn btn-warning" routerLink='/stockprice'> Add  StockPrice </button>
+    </div>
+    <br>
+<div class=" text-center">
+    <button class="btn  btn-warning" >
+    <a  routerLink="/admin">Back</a></button>
+    </div>

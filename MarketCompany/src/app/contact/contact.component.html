@@ -1,0 +1,32 @@
+<div class="">
+  <h2 class="text-center">Contact Us</h2>
+  <div class="container">
+    <form class=" w-50 container" [formGroup]="contactForm">
+       <div class="form-group">
+        <label for="id"> Id</label>
+        <input type="number" class="form-control " name="id" formControlName="id" placeholder="Enter id">
+  </div> 
+
+  <div class="form-group">
+    <label for="username"> Name</label>
+    <input type="text" class="form-control " name="name" formControlName="name" placeholder="Enter your name">
+  </div>
+  <div class="form-group">
+    <label for="email"> Email</label>
+    <input type="text" class="form-control " name="email" formControlName="email" placeholder="Enter your Email">
+  </div>
+  <div class="form-group">
+    <label for="phone">Mobile No</label>
+    <input type="number" class="form-control" id="phone" formControlName="phone"
+      placeholder=" Enter Your Mobile number">
+  </div>
+
+  <div class="form-group">
+    <label for="subject">Subject</label>
+    <input type="text" class="form-control" id="subject" formControlName="subject" placeholder=" Write Feedback">
+  </div>
+
+  <button (click)="addFeedback()" class="btn btn-success" >Add Feedback</button>
+  </form>
+</div>
+</div>

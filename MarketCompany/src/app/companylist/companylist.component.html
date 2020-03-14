@@ -1,0 +1,31 @@
+
+
+<div class="table-responsive">
+<table class="table" border="2">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>CompanyName</th>
+            <th>Sector</th>
+            <th>CEO</th>
+            <th>BOD</th>
+            <th>TurnOver</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let company of company">
+            <td>{{company.id}}</td>
+            <td>{{company.companyname}}</td>
+            <td>{{company.sector}}</td>
+            <td>{{company.ceo}}</td>
+            <td>{{company.bod}}</td>
+            <td>{{company.turnover}}</td>
+            <td>
+                <button class="btn btn-info" (click)="updateCompany(company.id)">Update</button>
+                <button class="btn btn-danger" (click)="deleteCompany(company)">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+

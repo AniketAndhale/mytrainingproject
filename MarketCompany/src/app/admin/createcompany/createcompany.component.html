@@ -1,0 +1,57 @@
+ <div class="">
+    <body style="background-color:gray;">
+    <h2 class="text-center">CreateCompany</h2>
+    <div class="container">
+         <form class=" w-50 container" [formGroup]="companyForm"  > 
+
+            <div class="form-group">
+                <label for="companyname">ID</label>
+                <input type="number" class="form-control " name="id" formControlName="id"
+                placeholder="Enter company Id ">
+            </div>
+            <div class="form-group">
+                <label for="companyname">Company Name</label>
+                <input type="text" class="form-control " name="companyname" formControlName="companyname"
+                placeholder="Enter companyname">
+            </div>
+            <div class="form-group">
+                <label for="sector">SectorName</label>
+                <input type="text" class="form-control " name="sector" formControlName="sector"
+                placeholder="Enter Sector Name">
+            </div>
+           
+            <div class="form-group">
+                <label for="ceo">CEO Name</label>
+                <input type="text" class="form-control " name="ceo" formControlName="ceo"
+                placeholder="Enter CEO Name">
+            </div>
+
+            <div class="form-group">
+                    <label for="bod">BoardOfDirector</label>
+                    <input type="text" class="form-control " name="bod" formControlName="bod"
+                    placeholder="Enter Bord Of Directory name">
+                </div>
+                <div class="form-group">
+                    <label for="bod">CompanyCode</label>
+                    <input type="text" class="form-control " name="companyCode" formControlName="companyCode"
+                    placeholder="Enter CompanyCode">
+                </div>
+                <div class="form-group">
+                    <label for="turnover">TurnOver</label>
+                    <input type="number" class="form-control " name="turnover" formControlName="turnover"
+                    placeholder="Enter Id with max 5 digits">  
+                </div>
+
+                <div class="form-group">
+                <button class="btn btn-success" (click)="addCompany()" >AddCompany</button>
+                         do u want to reset?
+                         <button type="reset"  class="btn  btn-success px-5 mx-3" 
+                         >reset</button>       
+                </div>
+                
+            </form>
+    </div>
+    </body>
+    </div>
+ 
+

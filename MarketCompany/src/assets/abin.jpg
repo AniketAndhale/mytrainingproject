@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en" default_lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="content-language" content="en">
+	<title>Stock Market Chart Image & Photo (Free Trial) | Bigstock</title>
+	<meta name="description" content="Download high-quality Stock market chart white color long shadows on images, illustrations and vectors perfectly priced to fit your projects budget.">	<meta http-equiv="X-UA-Compatible" content="IE=edge" ><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XQAAU1VRGwECXVNSAAUH",licenseKey:"a562b1f751",applicationID:"22920740"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(21),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(22),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(9),t(8),"addEventListener"in window&&t(5),c.xhrWrappable&&t(10),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(9),s=t(8),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(7),"addEventListener"in window&&t(5);var x=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof x&&(this.bstStart=y.now())}),o.on(w,function(t,n){var e=t[0];e instanceof x&&i("bst",[e,n,this.bstStart,y.now()])}),a.on(m,function(t,n,e){this.bstStart=y.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,y.now(),this.bstType])}),s.on(m,function(){this.bstStart=y.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,y.now(),"requestAnimationFrame"])}),o.on(g+p,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),o.on(g+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){function r(t,n,e){var r=t[n];"function"==typeof r&&(t[n]=function(){var t=i(arguments),n={};o.emit(e+"before-start",[t],n);var a;n[m]&&n[m].dt&&(a=n[m].dt);var s=r.apply(this,t);return o.emit(e+"start",[t,a],s),s.then(function(t){return o.emit(e+"end",[null,t],s),t},function(t){throw o.emit(e+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(22),a=t(21);n.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,n){r(d[h],n,f),r(l[h],n,f)}),r(s,"fetch",c),o.on(c+"end",function(t,n){var e=this;if(n){var r=n.headers.get("content-length");null!==r&&(e.rxSize=r),o.emit(c+"done",[null,n],e)}else o.emit(c+"done",[t],e)}))},{}],7:[function(t,n,e){var r=t("ee").get("history"),o=t("wrap-function")(r);n.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],8:[function(t,n,e){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],9:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],10:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",s)}function i(t){y.push(t),h&&(b?b.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];n.exports=u;var x=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],11:[function(t,n,e){function r(t){if(!i(t))return null;var n=window.NREUM;if(!n.loader_config)return null;var e=(n.loader_config.accountID||"").toString()||null,r=(n.loader_config.agentID||"").toString()||null,s=(n.loader_config.trustKey||"").toString()||null;if(!e||!r)return null;var c=a.generateCatId(),f=a.generateCatId(),u=Date.now(),d=o(c,f,u,e,r,s);return{header:d,guid:c,traceId:f,timestamp:u}}function o(t,n,e,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:n,ti:e}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function i(t){var n=!1,e=!1,r={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(r=NREUM.init.distributed_tracing,e=!!r.enabled),e)if(t.sameOrigin)n=!0;else if(r.allowed_origins instanceof Array)for(var o=0;o<r.allowed_origins.length;o++){var i=s(r.allowed_origins[o]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){n=!0;break}}return e&&n}var a=t(19),s=t(13);n.exports={generateTracePayload:r,shouldGenerateTrace:i}},{}],12:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);n.aborted||(e.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==n.status&&(n.status=0):i(this,t),e.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime]))}}function o(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.parsedOrigin=c(n),t.sameOrigin=t.parsedOrigin.sameOrigin}function i(t,n){t.params.status=n.status;var e=w(n,t.lastSize);if(e&&(t.metrics.rxSize=e),t.sameOrigin){var r=n.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(13),f=t(11).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(17),m=t(16),w=t(14),v=window.XMLHttpRequest;a.features.xhr=!0,t(10),t(6),u.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,n.loadCaptureCalled=!1,t.addEventListener("load",function(e){i(n,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var e=f(this.parsedOrigin);e&&e.header&&(n.setRequestHeader("newrelic",e.header),this.dt=e)}),u.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=m(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<l;s++)n.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),u.on("xhr-load-added",function(t,n){var e=""+p(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,n){var e=""+p(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],n)}),u.on("removeEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],n)}),u.on("fn-start",function(t,n,e){n instanceof v&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,n){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)}),u.on("fetch-before-start",function(t){var n,e=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url&&(n=t[0].url),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var r=f(this.parsedOrigin);if(r&&r.header){var o=r.header;if("string"==typeof t[0]){var i={};for(var a in e)i[a]=e[a];i.headers=new Headers(e.headers||{}),i.headers.set("newrelic",o),this.dt=r,t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&(t[0].headers.append("newrelic",o),this.dt=r)}})}},{}],13:[function(t,n,e){var r={};n.exports=function(t){if(t in r)return r[t];var n=document.createElement("a"),e=window.location,o={};n.href=t,o.port=n.port;var i=n.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=n.hostname||e.hostname,o.pathname=n.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!n.protocol||":"===n.protocol||n.protocol===e.protocol,s=n.hostname===document.domain&&n.port===e.port;return o.sameOrigin=a&&(!n.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],14:[function(t,n,e){function r(t,n){var e=t.responseType;return"json"===e&&null!==n?n:"arraybuffer"===e||"blob"===e||"json"===e?o(t.response):"text"===e||"document"===e||""===e||void 0===e?o(t.responseText):void 0}var o=t(16);n.exports=r},{}],15:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(21),s=t(22),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],16:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],17:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],18:[function(t,n,e){function r(t,n){var e=t.getEntries();e.forEach(function(t){"first-paint"===t.name?c("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&c("timing",["fcp",Math.floor(t.startTime)])})}function o(t,n){var e=t.getEntries();e.length>0&&c("lcp",[e[e.length-1]])}function i(t){if(t instanceof u&&!l){var n,e=Math.round(t.timeStamp);n=e>1e12?Date.now()-e:f.now()-e,l=!0,c("timing",["fi",e,{type:t.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,s,c=t("handle"),f=t("loader"),u=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),s=new PerformanceObserver(o);try{a.observe({entryTypes:["paint"]}),s.observe({entryTypes:["largest-contentful-paint"]})}catch(d){}}if("addEventListener"in document){var l=!1,p=["click","keydown","mousedown","pointerdown","touchstart"];p.forEach(function(t){document.addEventListener(t,i,!1)})}}},{}],19:[function(t,n,e){function r(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(n=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(n=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}n.exports={generateUuid:r,generateCatId:o}},{}],20:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],21:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],22:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],23:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([x,e,r,a]),a}}function p(t,n){g[t]=m(t).concat(n)}function h(t,n){var e=g[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return g[t]||[]}function w(t){return d[t]=d[t]||o(e)}function v(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var g={},y={},x={on:p,addEventListener:p,removeEventListener:h,emit:e,get:w,listeners:m,context:n,buffer:v,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(21),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=b.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(21),u=t("ee"),d=t(20),l=window,p=l.document,h="addEventListener",m="attachEvent",w=l.XMLHttpRequest,v=w&&w.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:w,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var g=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},x=w&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:g,features:{},xhrWrappable:x,userAgent:d};t(15),t(18),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(23)},{}],"wrap-function":[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(22),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}]},{},["loader",2,12,4,3]);</script>
+	<link type="application/opensearchdescription+xml" rel="search" href="/files/opensearchdescription.php"/>
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	
+			<!-- 1500px Image Link -->
+		<link rel="image_src" href="https://static1.bigstockphoto.com/8/1/2/large1500/218512990.jpg">
+	
+	<!-- Third party CSS -->
+	<link href="/build/bootstrap/css/bootstrap.min.css?r=2017-11-20.206" rel="stylesheet" type="text/css">
+	<link href="/build/bootstrap/css/bootstrap-responsive.min.css?r=2017-11-20.206" rel="stylesheet" type="text/css">
+	<link href="/build/fontawesome/css/font-awesome.min.css?r=2017-11-20.206" rel="stylesheet" type="text/css">
+	<link href="/build/mediaelement/mediaelementplayer.min.css?r=2017-11-20.206" rel="stylesheet" type="text/css">
+
+	<!-- Bigstock CSS -->
+		<link href="/build/core/build.min.css?r=2017-11-20.206" rel="stylesheet" type="text/css">
+		<script type="text/javascript">
+		var STATIC_CND = '';
+		var jsvars	= {"run_env":"prod","run":{"env":"prod"},"photo_payment_method":"credits","FACEBOOK_LANGUAGE_CODE":"en_US","snapengage":"cabc1a97-b022-4496-9d5e-e23a88ba470f","lang":{"login_or_signup_title":"Log In or Sign Up","signup_title":"Sign Up"},"COUNTRY_CODE_3":"IND","CURRENCY_SIGN":"$","CURRENCY_CODE":"USD","USER_LANGUAGE":"en","LANG_URL":"","JQUERY_VERSION":"1.10.2","DEC_POINT":".","THOUSANDS_SEP":",","HEAP_APP_ID":"185442208","user":{"id":0,"email":null,"name":null,"profile_name":null,"numeric_id":0,"sign_date":null,"subscriptions":[],"credits":0},"isStoreCardsExists":null,"default_image_size":null,"SEARCH_LANG":"en","CACHE_BUSTER":"2017-11-20.206","google_analytics":"UA-20270743-1","google_analytics_universal":["UA-20270743-8"],"ga_clientId":null,"cart_latest":null,"cart_ids":[],"subscribe_ab_design":null,"abfreetrialjuly2015":null,"abeditor":null,"ab_pricing_sept2015":null,"optimizely_tests":["subscribe_ab_design","abfreetrialjuly2015","abeditor","ab_pricing_sept2015"],"video_ab_test":null,"show_video":true,"media":{"id":"218512990","title":"Stock market chart white color with long shadows on light green background. 3D illustration for option, forex, exchange","description":"Stock market chart white color with long shadows on light green background. 3D illustration for option, forex, exchange","keywords":null,"contributor":"Altonari","media_type":"image","format":"jpeg"},"verify_token":"97af457270ff99a577871e6bd8ae7b26b08ef7c6","default_format_selected":1,"photo":{"id":"218512990","title":"Stock market chart white color with long shadows on light green background. 3D illustration for option, forex, exchange","description":"Stock market chart white color with long shadows on light green background. 3D illustration for option, forex, exchange","keywords":["3D","background","bank","bars","bearish","bull","bullish","business","candles","chart","climb","concept","currency","dark","data","diagram","digital","dollar","economy","exchange","finance","financial","forex","graph","growth","lines","long","market","option","rendering","research","shadow","stock","trade","trend","uptrend"],"related":"3D exchange","contributor":"Altonari","release":"no","thumb":{"height":470,"width":450,"crop":20}}};
+		var COOKIE_DOMAIN = '.bigstockphoto.com';
+		var CURRENCY_SIGN = '$';
+	</script>
+
+    <!-- Google tag manager -->
+    <!-- Google Tag Manager -->
+
+<script>
+    var dataLayer = dataLayer || [];
+    
+    dataLayer.push({
+        user: {
+            
+            id: '',
+            isCustomer: 'true'
+            
+        },
+        visit: {
+            
+            visitId: '60140318549',
+            visitorId: '55142584870',
+            sessionId: 'dd26b31bdbfe5295b6d15ba5c66f9af1'
+            
+        }
+    });
+    
+</script>
+<!-- GTM Tracking -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PL7TFM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+    
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;
+        j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PL7TFM');
+    
+</script>
+
+
+	<!-- Third party JS -->
+	<script src="/build/jquery/jquery.min.js?r=2017-11-20.206"></script>
+	<script src="/build/jquery/jquery.cachedScrpt.js?r=2017-11-20.206"></script>
+	<script src="//cdn.optimizely.com/js/8093150.js?r=2017-11-20.206"></script>
+	<script src="/build/js-cookie/js.cookie.js?r=2017-11-20.206"></script>
+	<script src="/build/bootstrap/js/bootstrap.min.js?r=2017-11-20.206"></script>
+	<script src="/build/bootstrap/js/bootstrap-overrides.js?r=2017-11-20.206"></script>
+	<script src="/build/underscore/underscore-min.js?r=2017-11-20.206"></script>
+	<script src="/build/mediaelement/mediaelement-and-player.min.js?r=2017-11-20.206"></script>
+	<script src="/build/moment/moment.min.js?r=2017-11-20.206"></script>
+
+	<!-- Bigstock JS -->
+		<script src="/build/core/build.js?r=2017-11-20.206"></script>
+	
+    <meta property="og:site_name" content="Bigstock"/>
+    <meta property="fb:admins" content="672334973,737657895,544601752,29100243,1696853787"/>
+	<meta property="fb:page_id" content="157182888267" />
+
+	<meta name=”twitter:site” content=”@bigstock>
+
+    <meta name="norton-safeweb-site-verification" content="9nm-x28xpnuse1adw3180gw43ih87xj6l1fv4zrwhkxhhupcc9oervbzey-grm3u5n9218ve67z-8s3v1b-errbgwschme4m2e-t58pk0htae0iytbjjtkjfba4ajblg" />
+
+	
+<link rel="alternate" hreflang="en" href="https://www.bigstockphoto.com/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="es" href="https://www.bigstockphoto.com/es/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="de" href="https://www.bigstockphoto.com/de/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="ru" href="https://www.bigstockphoto.com/ru/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="pt" href="https://www.bigstockphoto.com/pt/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="zh" href="https://www.bigstockphoto.com/zh/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="pl" href="https://www.bigstockphoto.com/pl/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="nl" href="https://www.bigstockphoto.com/nl/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="fr" href="https://www.bigstockphoto.com/fr/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="it" href="https://www.bigstockphoto.com/it/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="ko" href="https://www.bigstockphoto.com/ko/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="th" href="https://www.bigstockphoto.com/th/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="ja" href="https://www.bigstockphoto.com/ja/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="tr" href="https://www.bigstockphoto.com/tr/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="cs" href="https://www.bigstockphoto.com/cs/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="da" href="https://www.bigstockphoto.com/da/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="fi" href="https://www.bigstockphoto.com/fi/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="nb" href="https://www.bigstockphoto.com/nb/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="sv" href="https://www.bigstockphoto.com/sv/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="hu" href="https://www.bigstockphoto.com/hu/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<link rel="alternate" hreflang="x-default" href="https://www.bigstockphoto.com/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+<meta name="twitter:card" content="photo">
+<meta name="twitter:title" content="Stock Photo By Altonari">
+<meta name="twitter:description" content="Stock market chart white color with long shadows on light green background. 3D illustration for option, forex, exchange">
+<meta name="twitter:image" content="https://static1.bigstockphoto.com/8/1/2/large2/218512990.jpg">
+<meta name="twitter:url" content="https://www.bigstockphoto.com/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange">
+	<link rel="canonical" href="https://www.bigstockphoto.com/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2c-forex%2c-exchange" />
+
+			<meta name="google-site-verification" content="fRV32NtLbK-BtHXFHTk1z-L3iS9FseDojCgzwERTPT8" />
+		<meta name="google-site-verification" content="XmHoV01KyO-ryfCHhbgFEY9pvDvLetsB4FTxIZNZYIs" />
+		<meta name="msvalidate.01" content="75298A337D53A302F9F30C16D6733F89" />
+	
+
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+</head>
+<body class="" >
+
+<div class="whole_site_wrapper container_bootstrap  ">
+	
+
+	
+	<noscript>
+<div id="old_browser_warn" style="position:relative;padding:5px;width:99%;margin-bottom:0;background-color:#efbfbf;border-bottom:2px solid #ef9090;text-align:center;line-height:18px;">
+<center>
+
+	<span style="font-weight:bold;font-size:1.1em;color:#900;">
+		Please <a href="http://google.com/search?btnI=1&amp;q=enable%20javascript">enable javascript</a> to download images at Bigstock. Thanks!
+	</span>
+
+</center></div>
+</noscript>
+
+	
+	<span>
+</span>
+
+
+	<div id="close_text" class="hide">close</div>
+	
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<a class="brand" href="/">
+					<img class="logo" src="/images/2017/Bigstock_logo_neg-TM.svg" onerror="this.onerror=null; this.src='/images/2017/Bigstock_logo_neg-TM.png'" alt="Bigstock" />
+				</a>
+				<div class="nav-collapse navbar-responsive-collapse collapse" >
+					<ul class="nav pull-right">
+						<li class="dropdown language-selector">
+							<a data-target="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i> <span class="text">Language</span> <b class="caret"></b></a>
+							<ul class="dropdown-menu dropdown-menu-left">
+																<li><a href="/cs" data-lang="cs" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'Český'])">Český</a></li>
+								<li><a href="/da" data-lang="da" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'Dansk'])">Dansk</a></li>
+								<li><a href="/de" data-lang="de" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'Deutsch'])">Deutsch</a></li>
+								<li><a href="/en" data-lang="en" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'English'])">English</a></li>
+								<li><a href="/es" data-lang="es" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'Español'])">Español</a></li>
+								<li><a href="/fr" data-lang="fr" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'Français'])">Français</a></li>
+								<li><a href="/it" data-lang="it" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'Italiano'])">Italiano</a></li>
+								<li><a href="/hu" data-lang="hu" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'Magyar'])">Magyar</a></li>
+								<li><a href="/nl" data-lang="nl" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'Nederlands'])">Nederlands</a></li>
+								<li><a href="/nb" data-lang="nb" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'Norsk'])">Norsk</a></li>
+								<li><a href="/pl" data-lang="pl" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'Polski'])">Polski</a></li>
+								<li><a href="/pt" data-lang="pt" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'português'])">Português</a></li>
+								<li><a href="/fi" data-lang="fi" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'Suomi'])">Suomi</a></li>
+								<li><a href="/sv" data-lang="sv" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'Svenska'])">Svenska</a></li>
+								<li><a href="/tr" data-lang="tr" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'Türkçe'])">Türkçe</a></li>
+								<li><a href="/ru" data-lang="ru" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'русский'])">Русский</a></li>
+								<li><a href="/th" data-lang="th" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', 'ไทย'])">ไทย</a></li>
+								<li><a href="/ko" data-lang="ko" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', '한국어'])">한국어</a></li>
+								<li><a href="/zh" data-lang="zh" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', '中文'])">中文</a></li>
+								<li><a href="/ja" data-lang="ja" onclick="_gaq.push(['_trackEvent', 'ChangeLanguage', '日本語'])">日本語</a></li>
+							</ul>
+						</li>
+
+																		<li class=" plans ">
+							<a href="/subscribe/" class="btn btn-bsp-primary" style="padding:7px 19px; text-transform:uppercase; font-weight:bold; margin:5px 10px 0;" data-test-id="plans-pricing">See Plans &amp; Pricing</a>
+						</li>
+												
+
+
+						
+
+
+												<li class="header_signup"><a href="#" onclick="_gaq.push(['_trackEvent', 'top_menu', 'signup']);  signup(); return false;" data-test-id="user-signup">Sign up</a></li>
+						<li style="position:relative;" class="login"><a href="/login/" data-test-id="user-login">Log In</a>
+							
+						</li>
+						
+
+					</ul>
+				</div><!-- /.nav-collapse -->
+			</div>
+		</div><!-- /navbar-inner -->
+	</div>
+
+
+
+
+	
+
+		<div id="header2">
+
+		<form id="formsearch" class="form-inline" name="formsearch" method="GET" action="/search/">
+			<div class="compact_search" >
+				<div id="search_keyword_wrapper" class="clearfix">
+					<div class="input_wrapper">
+						<div class="fauxInput">
+							<div class="dropdown no-select" >
+								<div class="selected" >
+									<span class="text">Images</span> <i class="fa fa-angle-down"></i>
+								</div>
+								<ul class="hide">
+									<li data-type="video" data-action="/video/search/">Videos</li>
+									<li data-type="image" data-action="/search/">Images</li>
+								</ul>
+							</div>
+							<input name="q[st]" id="search_keyword" class="search_phrase expanded" placeholder="Find the perfect image..." maxlength="50" value="" type="text" autocomplete="off"/>
+
+						</div>
+					</div>
+					<button type="submit" class="search_button"><span class="sprite search"></span></button>
+									</div>
+			</div>
+
+		</form>
+
+	</div>
+		<div  class="container">
+
+		<div style="clear:both"></div>
+		<div class="hide">
+			<div id="cart_image_text">image</div>
+			<div id="cart_images_text">images</div>
+		</div>
+
+<link rel="stylesheet" type="text/css" href="/css/view3.css?v=2017-11-20.206">
+
+<!-- Image preview modal -->
+<div id="modal-image-preview" class="modal hide">
+	<div class="modal-body">
+		<div class="modal-crop">
+			<a class="modal-close" href="javascript:void(0)"><img src="/images/ui/modal-close.png" alt="Close Image Preview" /></a>
+			<img class="modal-image" src="https://static1.bigstockphoto.com/8/1/2/large1500/218512990.jpg" alt="Image Preview" />
+		</div>
+	</div>
+</div>
+
+<div class="row-fluid">
+	<div class="image-holder">
+		<div class="left_wrapper">
+
+		
+		<div class="image bsp-shadow tall" style="max-height:450px; position:relative;">
+			<a class="image-1500-url" href="https://static1.bigstockphoto.com/8/1/2/large1500/218512990.jpg" onclick="return false;" >
+				<img class="bsp-image-preview" src="https://static1.bigstockphoto.com/8/1/2/large2/218512990.jpg" alt="Stock market chart white color with long shadows on light green background. 3D illustration for option, forex, exchange" style="height:470px; width:450px;" onerror="failedImageHandler(this);" id="aviary_imagedetail_main_image">
+			</a>
+		</div>
+	
+
+
+			<div style="width:450px;">
+				<div style="background:#EEE; padding:10px;">
+
+					<div style="width:150px; float:left; margin-top:2px;"><div class="save_button" data-photo-id="218512990" data-ga-location="">
+	<div class="save_button_dropdown">
+		<div class="save_button_toggle"><div class="arrow"></div></div>
+		<div class="display">
+			<div class="menu pane">
+				<ul class="scroll_1">
+				</ul>
+				<div class="create_lightbox btn btn-small">Create a lightbox</div>
+			</div>
+			<div class="create_lightbox pane">
+				<div style="margin:10px;">
+				<form class="html5 form-inline">
+					<input type="text" class="lightbox_name" data-hide-valid-status="1" required> <br />
+					<input type="checkbox" class="public_lightbox"> <label for="public_lightbox" class="text-small">make this lightbox public</label>
+					<button type="submit" class="hide"></button>
+					<div style="margin-top:5px;">
+						<span class="btn btn-bsp-primary btn-small save blue">Save</span>
+						<span class="btn btn-small cancel">Cancel</span>
+					</div>
+				</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="basic">
+				<div class="wrapper"><div class="star"></div>&nbsp;<div class="text">Save</div></div>
+			</div>
+</div></div>
+					<table style="float:right;"><tr>
+											<td><a href="/image-218512990/stock-photo-stock-market-chart-white-color-with-long-shadows-on-light-green-background-3d-illustration-for-option%2C-forex%2C-exchange/download-preview" class="btn btn-small btn-link verymuted" target="_blank">Download Preview</a></td>
+										</tr></table>
+
+					<div class="clr"></div>
+				</div>
+
+			</div>
+		</div>
+
+
+		<div class="right_wrapper">
+
+
+			<h1 class="light">Stock market chart white color with long shadows on light green background. 3D illustration for option, forex, exchange</h1>
+
+			<table class="meta-data verymuted verymuted-notlinks small">
+				<tr>
+										<td>
+													<b>Stock Photo ID:</b>
+												218512990
+					</td>
+				</tr>
+				<tr>
+										<td>
+						<b>Copyright:</b>
+												<a href="/search/?contributor=Altonari">Altonari</a>
+											</td>
+				</tr>
+							</table>
+
+			<p>
+							<a href="/licensing-tos.html">Available for extended license use</a>
+						</p>
+
+
+			<div class="download-notice-holder">
+																																										</div>
+
+						<div class="editor-wrapper hide">
+				<div style="padding:10px; background:#EEE; border:1px solid #DDD; margin-bottom:5px; text-align:center;">
+
+					<h5 style="margin:0px;">Crop, resize & add text to your image for free</h5>
+					<div class="btn btn-large btn-bsp-primary edit-now" style="margin:10px 0px; ">Edit & Re-download</div>
+				</div>
+				<div style="border: solid #ddd; border-width: 2px 0 0; margin-bottom:5px;"></div>
+			</div>
+			
+
+			
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#subscriptions_tab" data-toggle="tab">1 Month Subscription</a></li>
+										<li><a href="#credits_tab" data-toggle="tab">Credits</a></li>
+										<li><a href="#sizes_tab" data-toggle="tab">Available Sizes</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="subscriptions_tab">
+
+													
+<p class="muted">Download any size at one price</p>
+<table class="table select-size subscriptions">
+	<tr class="selected">
+		<td>
+			<input type="radio" name="subscription" value="5aday7daytrial" class="free">
+			5 images <span class="verymuted">per day</span>
+		</td>
+		<td class="highlight">
+			7 DAY FREE TRIAL
+		</td>
+		<td>
+			<span class="big">$0</span>
+		</td>
+	</tr>
+					<tr>
+		<td>
+			<input type="radio" name="subscription" value="10aday1month">
+			10 images <span class="verymuted">per day</span>
+		</td>
+		<td class="highlight">
+			$0.33 / image
+		</td>
+		<td>
+			<span class="big">$99</span>
+		</td>
+	</tr>
+					<tr>
+		<td>
+			<input type="radio" name="subscription" value="50amonth1month3">
+			50 images <span class="verymuted">per month</span>
+		</td>
+		<td class="highlight">
+			$1.58 / image
+		</td>
+		<td>
+			<span class="big">$79</span>
+		</td>
+	</tr>
+</table>
+<a href="/subscribe/payment/" class="btn btn-bsp-primary btn-large"><i class="fa fa-download"></i>Download</a>
+						
+					</div>
+
+										<div class="tab-pane" id="credits_tab">
+						<p class="muted">Credits are good for up to one year</p>
+						<table class="table select-size credits">
+													<tr>
+								<td>
+									<input type="radio" name="credits" value="10">
+									10 Credits
+								</td>
+								<td class="highlight">
+																	</td>
+								<td>
+									<span class="big">$35</span>
+								</td>
+							</tr>
+													<tr>
+								<td>
+									<input type="radio" name="credits" value="25">
+									25 Credits
+								</td>
+								<td class="highlight">
+																			save 44%
+																	</td>
+								<td>
+									<span class="big">$49</span>
+								</td>
+							</tr>
+													<tr>
+								<td>
+									<input type="radio" name="credits" value="100">
+									100 Credits
+								</td>
+								<td class="highlight">
+																			save 52%
+																	</td>
+								<td>
+									<span class="big">$169</span>
+								</td>
+							</tr>
+													<tr>
+								<td>
+									<input type="radio" name="credits" value="500">
+									500 Credits
+								</td>
+								<td class="highlight">
+																			save 72%
+																	</td>
+								<td>
+									<span class="big">$495</span>
+								</td>
+							</tr>
+												</table>
+
+						<a class="btn btn-bsp-primary btn-large"><i class="fa fa-download"></i>Download</a>
+											</div>
+					
+					<div class="tab-pane" id="sizes_tab">
+
+											
+<table class="table select-size">
+	<thead>
+		<tr class="divider">
+			<th></th>
+			<th style="text-align:center;" width="70%" class="display-size-select">
+				<a href="#" class="px muted">px</a>
+				| <a href="#" class="in ">in</a>
+				| <a href="#" class="cm ">cm</a>
+			</th>
+			<th>Credits</th>
+		</tr>
+	</thead>
+	<tbody>
+				<tr data-credits="1">
+				<td  style="font-size:14px; white-space:nowrap;">
+					Small
+				</td>
+				<td  style="text-align:center;" class="verymuted">
+											<span class="px ">900 x 900</span>
+						<span class="in hide">12.5" x 12.5" (72 dpi)</span>
+						<span class="cm hide">31.8 x 31.8 (72 dpi)</span>
+									</td>
+				<td>
+					<div class="big">1</div>
+				</td>
+			</tr>
+				<tr data-credits="2">
+				<td  style="font-size:14px; white-space:nowrap;">
+					Medium
+				</td>
+				<td  style="text-align:center;" class="verymuted">
+											<span class="px ">1600 x 1600</span>
+						<span class="in hide">5.3" x 5.3" (300 dpi)</span>
+						<span class="cm hide">13.5 x 13.5 (300 dpi)</span>
+									</td>
+				<td>
+					<div class="big">2</div>
+				</td>
+			</tr>
+				<tr data-credits="4">
+				<td  style="font-size:14px; white-space:nowrap;">
+					Large
+				</td>
+				<td  style="text-align:center;" class="verymuted">
+											<span class="px ">2800 x 2800</span>
+						<span class="in hide">9.3" x 9.3" (300 dpi)</span>
+						<span class="cm hide">23.6 x 23.6 (300 dpi)</span>
+									</td>
+				<td>
+					<div class="big">4</div>
+				</td>
+			</tr>
+				<tr data-credits="6">
+				<td  style="font-size:14px; white-space:nowrap;">
+					X-Large
+				</td>
+				<td  style="text-align:center;" class="verymuted">
+											<span class="px ">4500 x 4500</span>
+						<span class="in hide">15" x 15" (300 dpi)</span>
+						<span class="cm hide">38.1 x 38.1 (300 dpi)</span>
+									</td>
+				<td>
+					<div class="big">6</div>
+				</td>
+			</tr>
+				<tr data-credits="50">
+				<td  style="font-size:14px; white-space:nowrap;">
+					Extended License
+				</td>
+				<td  style="text-align:center;" class="verymuted">
+											<span class="px ">4500 x 4500</span>
+						<span class="in hide">15" x 15" (300 dpi)</span>
+						<span class="cm hide">38.1 x 38.1 (300 dpi)</span>
+									</td>
+				<td>
+					<div class="big">50</div>
+				</td>
+			</tr>
+			</tbody>
+</table>
+<p class="verymuted">Sizes apply to subscriptions and credits</p>
+										</div>
+
+				</div>
+
+
+
+			
+
+		</div><!-- /right_wrapper -->
+	</div>
+</div>
+
+<br />
+
+<div class="row-fluid similar_images hide">
+	<div class="span12 ">
+		<hr />
+		<h3 class="dark">Related Images <span class="abtest hide">&nbsp;<span class="verymuted">|</span>&nbsp; <a href="">See All</a></span></h3>
+
+		<div class="mini-carousel">
+			<div class="go-left"><span class="arrow"></span></div>
+			<div class="go-right"><span class="arrow"></span></div>
+			<div class="image-block-display-wrapper"></div>
+		</div>
+	</div>
+
+</div>
+
+<div class="row-fluid" >
+	<div class="span12 relative">
+		<hr style="margin-top:0px;" />
+		<h3 class="dark" style="margin-top:0px">Related Keywords</h3>
+		<p class="keyword_list not-expanded">
+														<a href="/search/3D/" class="muted">3D</a>, 																					<a href="/search/background/" class="muted">background</a>, 																					<a href="/search/bank/" class="muted">bank</a>, 																					<a href="/search/bars/" class="muted">bars</a>, 																					<a href="/search/bearish/" class="muted">bearish</a>, 																					<a href="/search/bull/" class="muted">bull</a>, 																					<a href="/search/bullish/" class="muted">bullish</a>, 																					<a href="/search/business/" class="muted">business</a>, 																					<a href="/search/candles/" class="muted">candles</a>, 																					<a href="/search/chart/" class="muted">chart</a>, 																					<a href="/search/climb/" class="muted">climb</a>, 																					<a href="/search/concept/" class="muted">concept</a>, 																					<a href="/search/currency/" class="muted">currency</a>, 																					<a href="/search/dark/" class="muted">dark</a>, 																					<a href="/search/data/" class="muted">data</a>, 																					<a href="/search/diagram/" class="muted">diagram</a>, 																					<a href="/search/digital/" class="muted">digital</a>, 																					<a href="/search/dollar/" class="muted">dollar</a>, 																					<a href="/search/economy/" class="muted">economy</a>, 																					<a href="/search/exchange/" class="muted">exchange</a>, 																					<a href="/search/finance/" class="muted">finance</a>, 																					<a href="/search/financial/" class="muted">financial</a>, 																					<a href="/search/forex/" class="muted">forex</a>, 																					<a href="/search/graph/" class="muted">graph</a>, 																					<a href="/search/growth/" class="muted">growth</a>, 																					<a href="/search/lines/" class="muted">lines</a>, 																					<a href="/search/long/" class="muted">long</a>, 																					<a href="/search/market/" class="muted">market</a>, 																					<a href="/search/option/" class="muted">option</a>, 																					<a href="/search/rendering/" class="muted">rendering</a>, 																					<a href="/search/research/" class="muted">research</a>, 																					<a href="/search/shadow/" class="muted">shadow</a>, 																					<a href="/search/stock/" class="muted">stock</a>, 																					<a href="/search/trade/" class="muted">trade</a>, 																					<a href="/search/trend/" class="muted">trend</a>, 																					<a href="/search/uptrend/" class="muted">uptrend</a>											</p>
+		<a href='#' class='keywords-read-more'>See More</a>
+	</div>
+</div>
+
+
+	
+<hr  />
+<div class="row-fluid" style="margin-top:30px;">
+	<div class="span12">
+		<div class="g-savetodrive" data-src="http://www.bigstockphoto.com/nocdn/thumbs/8/1/2/large2/218512990" data-filename="Bigstock: 218512990 - Stock market chart white color with long shadows on light green background. 3D illustration for option, forex, exchange" data-sitename="Bigstock"></div> &nbsp;Save a preview of this image to google drive.
+	</div>
+</div>
+
+
+
+
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+
+<script type="text/template" id="search_item_template">
+	<div class="inner" style="width:<%= new_width-2 %>px; height:<%= display_height %>px; ">
+		<a href="<%= permalink %>" class="container">
+			<img class="image" src="<%= small_thumb_url %>" height="<%= display_height %>" width="<%= display_width %>" alt="<%= display_title =>">
+		</a>
+	</div>
+	<div class="actions clearfix">
+		<div class="cart"><span class="icon"></span><span class="title">Cart</span></div>
+		<div style="float:right; width:50%;">
+		<div class="save_button save_button__mini " data-photo-id="" data-ga-location="">
+	<div class="save_button_dropdown">
+		<div class="save_button_toggle"><div class="arrow"></div></div>
+		<div class="display">
+			<div class="menu pane">
+				<ul class="scroll_1">
+				</ul>
+				<div class="create_lightbox  btn btn-small">Create a lightbox</div>
+			</div>
+			<div class="create_lightbox pane">
+				<div style="margin:10px;">
+				<form class="html5 form-inline">
+					<input type="text" class="lightbox_name" data-hide-valid-status="1" required> <br />
+					<input type="checkbox" class="public_lightbox"> <label for="public_lightbox" class="text-small">make this lightbox public</label>
+					<button type="submit" class="hide"></button>
+					<div style="margin-top:5px;">
+						<span class="btn btn-bsp-primary btn-small save blue">Save</span>
+						<span class="btn btn-small cancel">Cancel</span>
+					</div>
+				</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="basic">
+		<div class="wrapper"><div class="star"></div><span class="title">Save</span></div>
+	</div>
+</div>
+		</div>
+	</div>
+</script>
+
+<script type="text/javascript" src="/javascript/imageGrid.js?v=2017-11-20.206"></script>
+<script type="text/javascript" src="/javascript/legacyDialog.js"></script>
+<script type="text/javascript" src="/javascript/view3.js?v=2017-11-20.206"></script>
+
+			<div class="clr"></div>
+
+</div><!-- /container -->
+
+
+
+
+<div id="bsp_footer">
+	<div class="container"><!-- /container -->
+		<div class="row-fluid">
+			<div class="span4">
+				<div class="footer_help inner">
+					<h6>
+						<span style="text-decoration:underline;">Support</span>
+						&nbsp;
+						<span class="hours">9am-5pm EST M-F</span>
+					</h6>
+					<ul class="unstyled">
+						<li class="livechat online"><a href="#" onClick="return SnapEngage.openProactiveChat();"><span class="sprite comment online"></span></a> <a href="#" onClick="return SnapABug.startLink();">Live Chat</a></li>
+						<li class="phone online"><span class="sprite phone online"></span> 001-646-794-1094</li>
+						<li class="email"><a href="/contactus.html"><span class="sprite email2"></span></a> <a href="/contactus.html">Email us</a></li>
+						<li class="faq"><a href="http://help.bigstockphoto.com/home/?locale=1"><span class="sprite love"></span></a> <a href="http://help.bigstockphoto.com/home/?locale=1">Help &amp; FAQ</a></li>
+						<li class="livechat offline hide"><span class="sprite comment offline"></span> Live Chat (offline)</li>
+						<li class="phone offline hide"><span class="sprite phone offline"></span> <span itemscope itemtype="http://schema.org/Organization"><span itemprop="telephone">001-646-794-1094</span></span> (away)</li>
+					</ul>
+				</div>
+			</div>
+			<div class="span4 footer_style">
+				<div class="inner">
+					<div class="">
+
+						<h6>Links 'n things</h6>
+						<ul class="unstyled">
+							<li><a href="/aboutus.html">About Bigstock</a></li>
+							<li><a href="/sell-your-images.html">Sell Images</a></li>
+							<li><a href="/partners/">API &amp; Partners</a></li>
+							<li><a href="/tos.html">Legal Stuff</a></li>
+							<li><a href="/privacy.html">Privacy Policy</a></li>
+							<li><a href="/worldwide.html">Worldwide</a></li>
+							<li><a href="/satisfaction-guaranteed.html">Satisfaction Guaranteed</a></li>
+							<li><a href="https://www.shutterstock.com/">Shutterstock</a></li>
+							<li><a href="/free-trial/?utm_source=bigstock_web&utm_medium=website&utm_campaign=footer">Free Stock Photos</a></li>
+							<li><a href="/video/free-trial/?utm_source=bigstock_web&utm_medium=website&utm_campaign=footer">Free Stock Video</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="span4 footer_style">
+				<div class="inner">
+					<h6>Let’s be friends</h6>
+					<!-- <hr /> -->
+					<a href="http://www.facebook.com/BigStockPhoto" class="facebook" target="_blank"><i class="fa fa-facebook-official"></i></a>
+					<a href="https://twitter.com/Bigstock" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+					<a href="//plus.google.com/102301804621993699359?prsrc=3" class="gplus" target="_blank"><i class="fa fa-google-plus"></i></a>
+					<div style="margin:15px 0 10px;"><a href="http://www.bigstockphoto.com/blog/" class="blog" target="_blank"><img src="/images/blog-logo-white.png" alt="Bigstock Blog" style="max-width:150px;"></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="row-fluid footer_colophon">
+			<div class="span12">
+				<hr />
+				<p>Made with love in NYC.</p>
+				<p>
+					Bigstock and Big Stock Photo are registered trademarks of Shutterstock. Bigstockphoto is a trademark of Shutterstock.<br />
+					&copy; 2004-2020 All rights reserved - Bigstock&reg;
+				</p>
+			</div>
+		</div>
+	</div><!-- /container -->
+</div>
+
+
+</div> <!-- whole site wrapper -->
+
+<div id="fb-root"></div>
+<!-- Server: 29 -->
+
+<!-- begin SnapEngage code -->
+<script type="text/javascript">
+	(function() {
+		var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;
+		se.src = '//storage.googleapis.com/code.snapengage.com/js/' + jsvars.snapengage + '.js';
+		var done = false;
+		se.onload = se.onreadystatechange = function() {
+			if (!done&&(!this.readyState||this.readyState==='loaded'||this.readyState==='complete')) {
+				done = true;
+				/* Place your SnapEngage JS API code below */
+				/* SnapEngage.allowChatSound(true); Example JS API: Enable sounds for Visitors. */
+			}
+		};
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
+	})();
+</script>
+<!-- end SnapEngage code -->
+<script type="application/ld+json">
+
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "http://www.bigstockphoto.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "http://www.bigstockphoto.com/search/{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+
+</script>
+
+<!-- Twitter universal website tag code -->
+<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">twttr.conversion.trackPid('nuddi', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+  <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=nuddi&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+  <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=nuddi&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+</noscript>
+<!-- End Twitter universal website tag code -->
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a562b1f751","applicationID":"22920740","transactionName":"YFdWYxNZX0EAU0FbW1kdd0ISTF5fTllYU1NS","queueTime":0,"applicationTime":112,"atts":"TBBVFVtDTE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

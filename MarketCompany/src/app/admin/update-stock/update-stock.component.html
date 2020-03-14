@@ -1,0 +1,43 @@
+ <!-- <header style="color: rgb(21, 37, 54);" class="text-center"><h2>Stock Market Charting</h2></header> -->
+ <div class="jumbotron jumbotron-fluid"> 
+    <h2 class="text-center">Update StockExchange</h2>
+    <div class="container">
+         <form class=" w-50 container" [formGroup]="updatestockForm"  > 
+
+            <div class="form-group">
+                <label for="id">ID</label>
+                <input type="number" class="form-control " name="id" formControlName="id"
+                placeholder="Enter company Id " disabled>
+            </div>
+            <div class="form-group">
+                <label for="stockexchangename">Stock Exchange Name</label>
+                <input type="text" class="form-control " name="stockexhangename" formControlName="stockexchangename"
+                placeholder="Enter stockexchangeyname">
+            </div>
+            <div class="form-group">
+                <label for="brief">Brief</label>
+                <input type="text" class="form-control " name="brief" formControlName="brief"
+                placeholder="Write Brief">
+            </div>
+           
+            <div class="form-group">
+                <label for="address">Contact Address</label>
+                <input type="text" class="form-control " name="ceo" formControlName="address"
+                placeholder="Put Contact Address">
+            </div>
+            <div class="form-group">
+                    <label for="remark">Remark</label>
+                    <input type="text" class="form-control " name="remark" formControlName="remark"
+                    placeholder="Write Remark">
+                </div>
+    
+                
+
+                <button (click)=" updateStockExchange(stock)" class="btn btn-success">Update</button>      
+                
+            </form>
+    </div>
+    </div>
+
+
+

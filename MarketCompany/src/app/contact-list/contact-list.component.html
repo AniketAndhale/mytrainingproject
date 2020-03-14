@@ -1,0 +1,35 @@
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Subject</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let contact of contact">
+            <td>{{contact.id}}</td>
+            <td>{{contact.name}}</td>
+            <td>{{contact.email}}</td>
+            <td>{{contact.phone}}</td>
+            <td>{{contact.subject}}</td>
+            
+        </tr>
+    </tbody>
+</table>
+
+<!-- 
+<div class=" text-center">
+    <button class="btn  btn-warning" >
+    <a  routerLink="/contact">Create contact</a></button>
+    </div> -->
+    
+    <br>
+    <div class=" text-center">
+        <button class="btn  btn-warning" >
+        <a  routerLink="/admin">Back</a></button>
+        </div>
+

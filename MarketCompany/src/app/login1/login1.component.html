@@ -1,0 +1,37 @@
+<div class="">
+    <div class="container">
+        <div class="row" style="height: 400px;">
+            <div class="text-center col align-self-center">
+        <form class=" w-50 container" [formGroup]="login1Form" (ngSubmit)="onSubmit()" >
+​
+                <div class="form-group">
+                    <label for="username"> User Name</label>
+                    <input type="text" class="form-control " name="username" formControlName="username"
+                    placeholder="Enter your user name">
+                </div>
+            
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" formControlName="password"
+            placeholder=" Use Strong password">
+                </div>
+                <div class="form-group">
+                    <button type="submit" routerLink="/user" onsubmit="onSubmit()" class="btn  btn-success px-5 mx-3" >Submit</button>
+                </div>
+                 <div class="form-group">
+                         New User?
+                        <a routerLink="/register">Create New Account</a>
+                </div>
+        
+            </form>
+    </div>
+    </div> 
+    </div>
+</div>
+    <!-- <div class="row" style="height: 400px;">
+        <div class="text-center col align-self-center">
+            <a routerLink="/admin" routerLinkActive="active" class="btn btn-warning w-25 my-2">Admin</a> <br>
+            <a routerLink="/user" routerLinkActive="active" class="btn btn-primary w-25 my-2">User</a>
+        </div>
+    </div> -->
+      

@@ -1,0 +1,39 @@
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Selectcompany</th>
+            <th>SelectStock</th>
+            <th>CompanyName</th>
+            <th>From-Period</th>
+            <th>To-period</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let comparecompany of comparecompany">
+            <td>{{comparecompany.id}}</td>
+            <td>{{comparecompany.selectcompany}}</td>
+            <td>{{comparecompany.selectstock}}</td>
+            <td>{{comparecompany.companyName}}</td>
+            <td>{{comparecompany.fperiod}}</td>
+            <td>{{comparecompany.tperiod}}</td>
+            <td>
+                
+                <button class="btn btn-info" (click)=" updateCompany(company.id)">Update</button>
+                <button class="btn btn-danger" (click)="deleteCompareCompany(comparecompany)">Delete</button>
+                <!-- <button class="btn btn-danger" (click)="updateCompany(company)">Update</button>
+                 -->
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+<div class=" text-center">
+<button class="btn  btn-warning" >
+<a  routerLink="/user/comparecompany">Compare Company</a></button>
+</div>
+
